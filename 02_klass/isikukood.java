@@ -15,6 +15,13 @@ public class isikukood{
 
     public String synnikuu(){
         return kood.substring(3, 5);
-        
+    }
+
+    public String synnipaev(){
+        return kood.substring(5, 7);
+    }
+
+    public String synnikuupaev(){
+        return synnipaev() + "." + synnikuu() + "." + synniaasta();
     }
 }
