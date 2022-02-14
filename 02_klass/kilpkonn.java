@@ -5,6 +5,8 @@ public class kilpkonn{
         return "("+x+", "+y+", suund "+suund+")";
     }
 
+    public int kysiX(){return x;}
+    public int kysiY(){return y;}
     public void edasi(){
         if (suund == 0){
             x++;
