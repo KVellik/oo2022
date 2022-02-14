@@ -3,7 +3,9 @@ public class proov1{
         isikukood karl = new isikukood("39810270262");
         System.out.println(karl.sugu());
         //System.out.println(karl.aastakakstahte());
-        System.out.println(karl.synniaasta());
-        System.out.println(karl.synnikuu());
+        //System.out.println(karl.synniaasta());
+        //System.out.println(karl.synnikuu());
+        //System.out.println(karl.synnipaev());
+        System.out.println(karl.synnikuupaev());
     }
 }
